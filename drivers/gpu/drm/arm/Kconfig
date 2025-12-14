@@ -39,4 +39,8 @@ config DRM_MALI_DISPLAY
 
 source "drivers/gpu/drm/arm/display/Kconfig"
 
+menu "ARM GPU Configuration"
+source "drivers/gpu/arm/midgard/Kconfig"
+endmenu
+
 endmenu

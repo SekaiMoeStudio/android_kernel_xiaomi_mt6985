@@ -40,3 +40,4 @@ obj-$(CONFIG_DA8XX_MSTPRI)	+= da8xx-mstpri.o
 
 # MHI
 obj-y				+= mhi/
+obj-y += met/

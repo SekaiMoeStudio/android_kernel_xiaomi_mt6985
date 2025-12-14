@@ -58,3 +58,8 @@ $(obj)/extra-certs.c: $(CONFIG_CFG80211_EXTRA_REGDB_KEYDIR:"%"=%) \
 	  ) > $@)
 
 clean-files += shipped-certs.c extra-certs.c
+
+obj-y += conninifa/
+obj-y += adaptor/
+onj-y += fmradio/
+

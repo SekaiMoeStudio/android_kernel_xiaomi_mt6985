@@ -8,6 +8,11 @@
 
 obj-y				+= irqchip/
 obj-y				+= bus/
+obj-y += udc/
+onj-y += msync2/
+obj-y += connectivity/
+obj-y += connfem/
+obj-y += gps/
 
 obj-$(CONFIG_GENERIC_PHY)	+= phy/
 
